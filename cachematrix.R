@@ -1,6 +1,6 @@
 ##	These functions allow an invertible matrix be inverted and 
 ##	cached so when required more than once it does not have to 
-##	be computed again
+##	be computed again.
 
 
 makeCacheMatrix <- function(x = matrix()) {
